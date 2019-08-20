@@ -1,2 +1,13 @@
 # teleoperated_robot
-Capstone Project, Raspberry Pi, Remote Control
+Contributers:
+  Caner Tol
+  Ayca Yildirim
+  Yunus Demiroren
+  Birkan Donmez
+  Gokhan Soylukan
+
+Supervisor:
+  Mert Ankarali
+
+
+
