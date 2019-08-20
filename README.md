@@ -1,12 +1,17 @@
 # teleoperated_robot
 Contributers:
-  Caner Tol /n
+  Caner Tol 
+
   Ayca Yildirim
+  
   Yunus Demiroren
+  
   Birkan Donmez
+  
   Gokhan Soylukan
 
 Supervisor:
+
   Mert Ankarali
 
 
