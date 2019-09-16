@@ -1,19 +1,3 @@
-# teleoperated_robot
-Contributers:
-
-    Caner Tol 
-
-    Ayca Yildirim
-
-    Yunus Demiroren
-
-    Birkan Donmez
-
-    Gokhan Soylukan
-
-Supervisor:
-
-    Mert Ankarali
-
-
-
+# Poro-Inc.
+Where dreams come true.
+EE493-494, 2018-2019.

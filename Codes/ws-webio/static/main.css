@@ -1,0 +1,7 @@
+ul li {
+    display: none;
+}
+
+ul li:nth-of-type(-n+10){
+    display: inherit;
+}

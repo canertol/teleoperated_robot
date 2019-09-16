@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title> Poro Inc. </title>
+</head>
+
+    <body>
+        <img id="streamimage" class="xform" src="http://localhost:5901/?action=stream">
+        <div> <!-- LEDs -->
+            <h2>Play with LED's</h2>
+            <p>Here you can turn on/off LED's connected to the Raspberry PI. </p>
+            Green:
+            <p>
+                <input type="button" id="green_on"  value="ON">
+                <input type="button" id="green_off" value="OFF">
+            </p>
+            Red:
+            <p>
+                <input type="button" id="red_on"  value="ON">
+                <input type="button" id="red_off" value="OFF">
+            </p>
+        </div>
+        <hr>
+            Websocket status:
+        <br>
+        <div id="ws-status"> Waiting... </div>
+
+    <!-- Scripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="{{ static_url("ws-client.js") }}"></script>
+        <script>
+            document.addEventListener('keydown', function(event) {
+                var keyCode = event.keyCode;
+                if(keyCode == 37) {
+                    alert('Left was pressed: Turn left!');
+                }
+                else if(keyCode == 39) {
+                    alert('Right was pressed: Turn right!');
+                }
+                else if(keyCode == 38) {
+                    alert('Up was pressed: Go forward!');
+                }
+                else if(keyCode == 40) {
+                    alert('Down was pressed: Go back!');
+                }
+                else if(keyCode == 32) {
+                    alert('Space was pressed: Kick the ball!');
+                }
+            });
+        </script> 
+
+        <script>
+            document.addEventListener('keyup', function(e) {
+                var keyCode = e.keyCode;
+                if(keyCode == 37) {
+                    alert('Left was released');
+                }
+                else if(keyCode == 39) {
+                    alert('Right was released');
+                }
+                else if(keyCode == 38) {
+                    alert('Up was released!');
+                }
+                else if(keyCode == 40) {
+                    alert('Down was released');
+                }
+                else if(keyCode == 32) {
+                    alert('Space was released!');
+                }
+            });
+        </script> 
+
+    </body>
+
+</html>
